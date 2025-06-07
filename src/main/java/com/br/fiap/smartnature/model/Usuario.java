@@ -1,4 +1,4 @@
--package com.br.fiap.smartnature.model;
+package com.br.fiap.smartnature.model;
 
 import jakarta.persistence.*;
 
