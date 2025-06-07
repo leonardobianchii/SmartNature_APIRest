@@ -1,4 +1,3 @@
--
 package com.br.fiap.smartnature.controller;
 
 import com.br.fiap.smartnature.dto.AlertaDTO;
