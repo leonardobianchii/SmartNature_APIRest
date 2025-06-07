@@ -22,10 +22,11 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 						url = "https://www.apache.org/licenses/LICENSE-2.0.html"
 				)
 		),
-		servers = @Server(
-				url = "http://localhost:8080",
-				description = "Servidor local de desenvolvimento"
-		)
+		servers = {
+				@Server(url = "http://localhost:8080", description = "Servidor local de desenvolvimento"),
+				@Server(url = "http://52.226.125.71:8080", description = "Servidor na nuvem")
+		}
+)
 )
 @SpringBootApplication
 public class SmartnatureApplication {
