@@ -23,7 +23,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 				)
 		),
 		servers = @Server(
-				url = "http://52.226.125.71:8080",
+				url = "http://localhost:8080",
 				description = "Servidor local de desenvolvimento"
 		)
 )
