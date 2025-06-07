@@ -1,4 +1,4 @@
-package com.br.fiap.smartnature.security;
+-package com.br.fiap.smartnature.security;
 
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;

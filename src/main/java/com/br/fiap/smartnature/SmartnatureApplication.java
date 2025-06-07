@@ -23,8 +23,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 				)
 		),
 		servers = @Server(
-				url = "http://52.226.125.71:8080",
-				description = "Servidor local de desenvolvimento"
+				url = "http://172.171.192.184:8080",
+				description = "Servidor nuvem com banco de dados oracle"
 		)
 )
 @SpringBootApplication
